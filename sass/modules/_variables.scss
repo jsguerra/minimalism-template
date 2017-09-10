@@ -1,0 +1,23 @@
+// Font weights
+$light:     100;
+$normal:    400;
+$bold:      700;
+
+// Base Font
+$base-font-family: 'Georgia', Cambria, Times, serif;
+$base-font-weight: $normal;
+$base-font-size:   16px;
+$base-line-height: 1.5;
+
+// Fixed Font
+$fixed-font-family: monospace;
+$fixed-font-size:   85%;
+$fixed-line-height: $base-line-height;
+
+// Headings
+$header-font-family: 'Verdana', Geneva, Arial, sans-serif;
+$header-font-weight: $bold;
+
+// Colour Palette
+$dark-grey:   #333;
+$light-grey: #666;
