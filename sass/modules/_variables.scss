@@ -9,6 +9,13 @@ $base-font-weight: $normal;
 $base-font-size:   16px;
 $base-line-height: 1.5;
 
+// Font sizes
+$extra-small-font: 12px;
+$small-font:       14px;
+$medium-font:      16px;
+$large-font:       18px;
+$extra-large-font: 20px;
+
 // Fixed Font
 $fixed-font-family: monospace;
 $fixed-font-size:   85%;
@@ -20,4 +27,4 @@ $header-font-weight: $bold;
 
 // Colour Palette
 $dark-grey:   #333;
-$light-grey: #666;
+$light-grey:  #666;
