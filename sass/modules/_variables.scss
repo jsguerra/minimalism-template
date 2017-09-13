@@ -3,11 +3,19 @@ $light:     100;
 $normal:    400;
 $bold:      700;
 
+// Font Families
+$georgia:  'Georgia', Cambria, Times, serif;
+$opensans: 'Open Sans', Tahoma, sans-serif;
+$ptserif:  'PT Serif', serif;
+$verdana:  'Verdana', Geneva, Arial, sans-serif;
+$montserrat: 'Montserrat', sans-serif;
+$merriweather: 'Merriweather', serif;
+
 // Base Font
-$base-font-family: 'Georgia', Cambria, Times, serif;
+$base-font-family: $opensans;
 $base-font-weight: $normal;
-$base-font-size:   16px;
-$base-line-height: 1.5;
+$base-font-size:   17px;
+$base-line-height: 1.618;
 
 // Font sizes
 $extra-small-font: 12px;
@@ -22,9 +30,10 @@ $fixed-font-size:   85%;
 $fixed-line-height: $base-line-height;
 
 // Headings
-$header-font-family: 'Verdana', Geneva, Arial, sans-serif;
+$header-font-family: $montserrat;
 $header-font-weight: $bold;
 
 // Colour Palette
-$dark-grey:   #333;
+$darker-grey: #333;
+$dark-grey:   #444;
 $light-grey:  #666;
