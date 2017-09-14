@@ -1,28 +1,29 @@
+// Font Families
+$georgia:      'Georgia', Cambria, Times, serif;
+$opensans:     'Open Sans', Tahoma, sans-serif;
+$opensanscd:   'Open Sans Condensed', sans-serif;
+$ptserif:      'PT Serif', serif;
+$verdana:      'Verdana', Geneva, Arial, sans-serif;
+$montserrat:   'Montserrat', sans-serif;
+$merriweather: 'Merriweather', serif;
+
 // Font weights
 $light:     100;
 $normal:    400;
 $bold:      700;
 
-// Font Families
-$georgia:  'Georgia', Cambria, Times, serif;
-$opensans: 'Open Sans', Tahoma, sans-serif;
-$ptserif:  'PT Serif', serif;
-$verdana:  'Verdana', Geneva, Arial, sans-serif;
-$montserrat: 'Montserrat', sans-serif;
-$merriweather: 'Merriweather', serif;
+// Font sizes
+$extra-small-font: 12px;
+$small-font:       14px;
+$medium-font:      17px;
+$large-font:       20px;
+$extra-large-font: 24px;
 
 // Base Font
 $base-font-family: $opensans;
 $base-font-weight: $normal;
-$base-font-size:   17px;
+$base-font-size:   $medium-font;
 $base-line-height: 1.618;
-
-// Font sizes
-$extra-small-font: 12px;
-$small-font:       14px;
-$medium-font:      16px;
-$large-font:       18px;
-$extra-large-font: 20px;
 
 // Fixed Font
 $fixed-font-family: monospace;

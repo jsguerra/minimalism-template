@@ -11,5 +11,15 @@ h6 {
 }
 
 p {
-	font-size: $large-font;
+	//font-size: $medium-font;
+}
+
+blockquote {
+	font-family: $ptserif;
+	font-size: $extra-large-font;
+}
+
+.lead {
+	font-size: $extra-large-font;
+	font-weight: $normal;
 }

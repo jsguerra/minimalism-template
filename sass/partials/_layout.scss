@@ -1,49 +1,57 @@
 header {
-    background-color: white;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    box-shadow: 0 2px 2px -2px rgba(0,0,0,.15);
+	background-color: white;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	box-shadow: 0 2px 2px -2px rgba(0,0,0,.15);
 
-    .header-inner {
-        width: 100%;
-        max-width: 1000px;
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: space-between;
-        margin: 0 auto;
-        padding: 10px 20px;
-        box-sizing: border-box;
-    }
+	.header-inner {
+		width: 100%;
+		max-width: 1000px;
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: space-between;
+		margin: 0 auto;
+		padding: 10px 20px;
+		box-sizing: border-box;
+	}
 }
 
 nav {
 
-    ul {
-        display: flex;
-        flex-flow: row wrap;
+	ul {
+		display: flex;
+		flex-flow: row wrap;
 
-        li {
-            list-style-type: none;
-            margin-right: 10px;
-        }
-    }
+		li {
+			list-style-type: none;
+			margin-right: 10px;
+		}
+	}
 }
 
 main {
-    margin: 100px 0;
+	margin: 100px 0;
 }
 
 article {
-    width: 100%;
-    max-width: 740px;
-    margin: 0 auto;
-    padding: 20px;
-    box-sizing: border-box;
+	width: 100%;
+	max-width: 740px;
+	margin: 0 auto;
+	padding: 20px;
+	box-sizing: border-box;
 }
 
 footer {
-    border-top: 1px solid lighten($light-grey, 55%);
-    text-align: center;
+	border-top: 1px solid lighten($light-grey, 55%);
+	text-align: center;
 }
+
+// alignments
+img.alignright {float:right; margin:0 0 1em 1em}
+img.alignleft {float:left; margin:0 1em 1em 0}
+img.aligncenter {display: block; margin-left: auto; margin-right: auto}
+a img.alignright {float:right; margin:0 0 1em 1em}
+a img.alignleft {float:left; margin:0 1em 1em 0}
+a img.aligncenter {display: block; margin-left: auto; margin-right: auto}

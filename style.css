@@ -406,8 +406,13 @@ h6 {
   font-weight: 700;
   line-height: 1.4; }
 
-p {
-  font-size: 18px; }
+blockquote {
+  font-family: "PT Serif", serif;
+  font-size: 24px; }
+
+.lead {
+  font-size: 24px;
+  font-weight: 400; }
 
 header {
   background-color: white;
@@ -446,5 +451,31 @@ article {
 footer {
   border-top: 1px solid #f2f2f2;
   text-align: center; }
+
+img.alignright {
+  float: right;
+  margin: 0 0 1em 1em; }
+
+img.alignleft {
+  float: left;
+  margin: 0 1em 1em 0; }
+
+img.aligncenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+a img.alignright {
+  float: right;
+  margin: 0 0 1em 1em; }
+
+a img.alignleft {
+  float: left;
+  margin: 0 1em 1em 0; }
+
+a img.aligncenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
 
 /*# sourceMappingURL=style.css.map */
