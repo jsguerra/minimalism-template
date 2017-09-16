@@ -3,6 +3,7 @@ $georgia:      'Georgia', Cambria, Times, serif;
 $opensans:     'Open Sans', Tahoma, sans-serif;
 $opensanscd:   'Open Sans Condensed', sans-serif;
 $ptserif:      'PT Serif', serif;
+$ptsans:       'PT Sans', sans-serif;
 $verdana:      'Verdana', Geneva, Arial, sans-serif;
 $montserrat:   'Montserrat', sans-serif;
 $merriweather: 'Merriweather', serif;
@@ -20,7 +21,7 @@ $large-font:       20px;
 $extra-large-font: 24px;
 
 // Base Font
-$base-font-family: $opensans;
+$base-font-family: $ptserif;
 $base-font-weight: $normal;
 $base-font-size:   $medium-font;
 $base-line-height: 1.618;
@@ -31,7 +32,7 @@ $fixed-font-size:   85%;
 $fixed-line-height: $base-line-height;
 
 // Headings
-$header-font-family: $montserrat;
+$header-font-family: $ptsans;
 $header-font-weight: $bold;
 
 // Colour Palette

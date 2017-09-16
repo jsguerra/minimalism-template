@@ -6,20 +6,18 @@ h4,
 h5,
 h6 {
 	font-family: $header-font-family;
-	font-weight: $header-font-weight;
-	line-height: 1.4;
 }
 
 p {
-	//font-size: $medium-font;
+	font-size: $medium-font;
 }
 
 blockquote {
-	font-family: $ptserif;
-	font-size: $extra-large-font;
+//	font-family: $ptserif;
+//	font-size: $extra-large-font;
 }
 
 .lead {
-	font-size: $extra-large-font;
-	font-weight: $normal;
+//	font-size: $extra-large-font;
+//	font-weight: $normal;
 }
