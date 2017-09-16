@@ -651,6 +651,10 @@ p + .typl8-drop-cap {
  * Extend this object into your markup.
  *
  */
+body {
+  font-family: "PT Serif", serif;
+  background-color: white; }
+
 h1,
 h2,
 h3,
@@ -660,7 +664,13 @@ h6 {
   font-family: "PT Sans", sans-serif; }
 
 p {
-  font-size: 17px; }
+  margin-bottom: 2.5rem; }
+
+blockquote {
+  font-size: 1.64967rem; }
+
+.lead {
+  font-size: 1.64967rem; }
 
 header {
   background-color: white;
@@ -687,7 +697,7 @@ nav ul {
     margin-right: 10px; }
 
 main {
-  margin: 100px 0; }
+  margin: 140px 0; }
 
 article {
   width: 100%;
@@ -700,24 +710,15 @@ footer {
   border-top: 1px solid #f2f2f2;
   text-align: center; }
 
-img .alignright {
+.alignright {
   float: right;
   margin: 0 0 1em 1em; }
-img .alignleft {
-  float: left;
-  margin: 0 1em 1em 0; }
-img .aligncenter {
-  display: block;
-  margin-left: auto;
-  margin-right: auto; }
 
-a img .alignright {
-  float: right;
-  margin: 0 0 1em 1em; }
-a img .alignleft {
+.alignleft {
   float: left;
   margin: 0 1em 1em 0; }
-a img .aligncenter {
+
+.aligncenter {
   display: block;
   margin-left: auto;
   margin-right: auto; }

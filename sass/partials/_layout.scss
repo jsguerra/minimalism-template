@@ -32,7 +32,7 @@ nav {
 }
 
 main {
-	margin: 100px 0;
+	margin: 140px 0;
 }
 
 article {
@@ -49,42 +49,19 @@ footer {
 }
 
 // image alignments
-img {
-
-	.alignright {
-		float: right;
-		margin: 0 0 1em 1em;
-	}
-
-	.alignleft {
-		float: left;
-		margin: 0 1em 1em 0;
-	}
-
-	.aligncenter {
-		display: block;
-		margin-left: auto;
-		margin-right: auto;
-	}
+.alignright {
+	float: right;
+	margin: 0 0 1em 1em;
 }
 
-a {
-	img {
-
-		.alignright {
-			float: right;
-			margin: 0 0 1em 1em;
-		}
-
-		.alignleft {
-			float: left;
-			margin: 0 1em 1em 0;
-		}
-
-		.aligncenter {
-			display: block;
-			margin-left: auto;
-			margin-right: auto;
-		}
-	}
+.alignleft {
+	float: left;
+	margin: 0 1em 1em 0;
 }
+
+.aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+

@@ -14,16 +14,16 @@ $normal:    400;
 $bold:      700;
 
 // Font sizes
-$extra-small-font: 12px;
-$small-font:       14px;
-$medium-font:      17px;
-$large-font:       20px;
-$extra-large-font: 24px;
+$extra-small: 12px;
+$small:       14px;
+$medium:      17px;
+$large:       20px;
+$extra-large: 24px;
 
 // Base Font
 $base-font-family: $ptserif;
 $base-font-weight: $normal;
-$base-font-size:   $medium-font;
+$base-font-size:   131.25%;
 $base-line-height: 1.618;
 
 // Fixed Font
@@ -39,3 +39,4 @@ $header-font-weight: $bold;
 $darker-grey: #333;
 $dark-grey:   #444;
 $light-grey:  #666;
+$background-color: white;
