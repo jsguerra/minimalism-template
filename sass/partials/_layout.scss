@@ -13,8 +13,16 @@ header {
 		flex-flow: row wrap;
 		justify-content: space-between;
 		margin: 0 auto;
-		padding: 10px 20px;
+		padding: 0 10px;
 		box-sizing: border-box;
+
+		.logo {
+			align-self: center;
+
+			.typl8-epsilon {
+				margin-bottom: 0;
+			}
+		}
 	}
 }
 
@@ -32,10 +40,10 @@ nav {
 }
 
 main {
-	margin: 140px 0;
+	margin: 100px 0;
 }
 
-article {
+.wrapper {
 	width: 100%;
 	max-width: 740px;
 	margin: 0 auto;
