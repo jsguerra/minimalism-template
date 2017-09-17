@@ -13,11 +13,11 @@ p {
 }
 
 blockquote {
-//	font-family: $ptserif;
+	font-family: $ptsans;
 	font-size: 1.2rem;
 }
 
 .lead {
-	font-size: 1.64967rem;
-//	font-weight: $normal;
+	line-height: $typl8-line-height;
+	margin-bottom: 2.5rem;
 }

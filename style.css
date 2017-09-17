@@ -667,10 +667,55 @@ p {
   margin-bottom: 2.5rem; }
 
 blockquote {
+  font-family: "PT Sans", sans-serif;
   font-size: 1.2rem; }
 
 .lead {
-  font-size: 1.64967rem; }
+  line-height: 1.65;
+  margin-bottom: 2.5rem; }
+
+* {
+  -webkit-tap-highlight-color: transparent;
+  -moz-tap-highlight-color: transparent; }
+
+body {
+  background-color: white; }
+
+.hamburger {
+  width: 50px;
+  height: 45px;
+  position: absolute;
+  cursor: pointer;
+  left: 50%;
+  margin-left: -25px;
+  top: 50%;
+  margin-top: -22.5px; }
+  .hamburger span {
+    display: block;
+    position: absolute;
+    height: 4.44px;
+    width: 100%;
+    background: #CF649A none repeat scroll 0% 0%;
+    opacity: 1;
+    right: 0px;
+    transition: all 0.25s ease-in-out 0s;
+    transform: rotate(0deg); }
+    .hamburger span:nth-child(1) {
+      margin-top: 0px; }
+    .hamburger span:nth-child(2) {
+      margin-top: 16px;
+      margin-right: 0px; }
+    .hamburger span:nth-child(3) {
+      margin-top: 32px; }
+  .hamburger.opened span:nth-child(1) {
+    transform: rotate(135deg);
+    margin-top: 16px; }
+  .hamburger.opened span:nth-child(2) {
+    opacity: 0;
+    right: -75px; }
+  .hamburger.opened span:nth-child(3) {
+    transform: rotate(-135deg);
+    margin-top: 16px; }
 
 header {
   background-color: white;
@@ -686,8 +731,12 @@ header {
     flex-flow: row wrap;
     justify-content: space-between;
     margin: 0 auto;
-    padding: 10px 20px;
+    padding: 0 10px;
     box-sizing: border-box; }
+    header .header-inner .logo {
+      align-self: center; }
+      header .header-inner .logo .typl8-epsilon {
+        margin-bottom: 0; }
 
 nav ul {
   display: flex;
@@ -697,9 +746,9 @@ nav ul {
     margin-right: 10px; }
 
 main {
-  margin: 140px 0; }
+  margin: 100px 0; }
 
-article {
+.wrapper {
   width: 100%;
   max-width: 740px;
   margin: 0 auto;
@@ -707,7 +756,7 @@ article {
   box-sizing: border-box; }
 
 footer {
-  border-top: 1px solid #f2f2f2;
+  border-top: 1px solid white;
   text-align: center; }
 
 .alignright {
