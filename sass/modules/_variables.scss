@@ -8,35 +8,23 @@ $verdana:      'Verdana', Geneva, Arial, sans-serif;
 $montserrat:   'Montserrat', sans-serif;
 $merriweather: 'Merriweather', serif;
 
-// Font weights
-$light:     100;
-$normal:    400;
-$bold:      700;
-
-// Font sizes
-$extra-small: 12px;
-$small:       14px;
-$medium:      17px;
-$large:       20px;
-$extra-large: 24px;
+// Colour Palette
+$dark-grey:    #222;
+$grey:         #444;
+$medium-grey:  #666;
+$light-greay:  #888;
+$light-bg:     white;
+$dark-bg:      $medium-grey;
 
 // Base Font
 $base-font-family: $ptserif;
-$base-font-weight: $normal;
-$base-font-size:   131.25%;
-$base-line-height: 1.618;
+$base-font-weight: normal;
 
 // Fixed Font
 $fixed-font-family: monospace;
 $fixed-font-size:   85%;
-$fixed-line-height: $base-line-height;
+$fixed-line-height: $typl8-line-height;
 
 // Headings
 $header-font-family: $ptsans;
-$header-font-weight: $bold;
-
-// Colour Palette
-$darker-grey: #333;
-$dark-grey:   #444;
-$light-grey:  #666;
-$background-color: white;
+$header-font-weight: bold;
