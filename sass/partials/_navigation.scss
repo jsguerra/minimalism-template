@@ -1,17 +1,6 @@
-$bgcolor: #111111;
-$hambgcolor: #CF649A;
-$hambasewidth: 25px;
-$hamsizemultiplier: 2;
-
 * {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   -moz-tap-highlight-color: rgba(0, 0, 0, 0);
-}
-
-body {
-  background: {
-	color: white;
-  }
 }
 
 .hamburger {
@@ -19,9 +8,9 @@ body {
   height: 22.5px * $hamsizemultiplier;
   position: absolute;
   cursor: pointer;
-  left: 50%;
+  right: 3%;
   margin-left: -($hambasewidth * $hamsizemultiplier) / 2;
-  top: 50%;
+  top: 55%;
   margin-top: -(22.5px * $hamsizemultiplier) / 2;
   span {
 	display: block;
