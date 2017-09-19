@@ -651,6 +651,14 @@ p + .typl8-drop-cap {
  * Extend this object into your markup.
  *
  */
+*, *:before, *:after {
+  box-sizing: border-box; }
+
+body, input, textarea, select, button {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
 body {
   font-family: "PT Serif", serif;
   background-color: white; }
@@ -733,8 +741,7 @@ header {
     flex-flow: row wrap;
     justify-content: space-between;
     margin: 0 auto;
-    padding: 0 10px;
-    box-sizing: border-box; }
+    padding: 0 10px; }
     header .header-inner .logo {
       align-self: center; }
       header .header-inner .logo .typl8-epsilon {
@@ -754,8 +761,7 @@ main {
   width: 100%;
   max-width: 740px;
   margin: 0 auto;
-  padding: 20px;
-  box-sizing: border-box; }
+  padding: 20px; }
 
 footer {
   border-top: 1px solid white;
