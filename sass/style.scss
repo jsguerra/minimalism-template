@@ -1,8 +1,19 @@
 // Third-party
-@import "vendor/vendor";
+@import "vendor/normalize";
+@import "vendor/typeplate-index";
 
-// Mixins and Variables
-@import "modules/modules";
+// Configuration: variables, mixins and functions
+@import "config/variables";
+@import "config/mixins";
 
-// Partials
-@import "partials/partials";
+// General and base settings
+@import "base/base";
+@import "base/typography";
+@import "base/images";
+
+// Macro and micro layouts
+@import "layout/layout";
+//@import "layout/header";
+@import "layout/navigation";
+//@import "layout/content";
+//@import "layout/footer";
