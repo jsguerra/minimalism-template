@@ -654,6 +654,9 @@ p + .typl8-drop-cap {
 *, *:before, *:after {
   box-sizing: border-box; }
 
+html {
+  font-size: 131.25%; }
+
 body, input, textarea, select, button {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
