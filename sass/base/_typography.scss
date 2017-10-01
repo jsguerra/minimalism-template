@@ -21,9 +21,15 @@ p {
 	margin-bottom: 2.5rem;
 }
 
+abbr {
+	color: $hambgcolor;
+}
+
 blockquote {
 	font-family: $ptserif;
-	font-size: 1.2em;
+	color: $medium-grey;
+	padding-left: 20px;
+	border-left: 4px solid $hambgcolor;
 }
 
 .lead {
