@@ -13,7 +13,7 @@
 	<link rel="manifest" href="site.webmanifest">
 	<link rel="apple-touch-icon" href="icon.png">
 
-	<link href="https://fonts.googleapis.com/css?family=Merriweather:400,400i,700|Montserrat:400,700|Open+Sans+Condensed:300,700|Open+Sans:400,400i,700|PT+Serif:400,700|PT+Sans:400,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=PT+Serif:400,700|PT+Sans:400,700" rel="stylesheet">
 	<link href="style.css" rel="stylesheet" media="all">
 
 	<!--[if lt IE 9]>
@@ -27,13 +27,13 @@
 			<div class="logo">
 				<h1 class="typl8-epsilon"><abbr title="HyperText Markup Language 5">HTML5</abbr> Bones</h1>
 			</div>
-			<nav>
-				<div class="hamburger">
-					<span></span>
-					<span></span>
-					<span></span>
-				</div>
-				<ul>
+			<div class="hamburger">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+			<nav class="overlay">
+				<ul class="overlay-content">
 					<li>Home</li>
 					<li>About</li>
 					<li>Contact</li>
@@ -47,7 +47,7 @@
 			<article>
 				<h1>The Earth <br><i><small>The Starting Point</small></i></h1>
 
-				<img src="img/reading-book.jpg" alt="reading a book" />
+				<img class="featured" src="img/reading-book.jpg" alt="reading a book" />
 
 				<p class="typl8-delta lead">One night when I had tasted bitterness I went out on to the hill. Dark heather checked my feet. Below marched the suburban lamps.</p>
 
@@ -124,11 +124,11 @@
 			  <p>Here's some code: <code>e = mc<sup>2</sup></code></p>
 
 			  <pre>
-
-				<code>And
-				  Some
-				  Poetry
-				</code>
+<code>
+  And
+  Some
+  Poetry
+</code>
 			  </pre>
 
 			  <dl class="typl8-dictionary-style">
@@ -156,11 +156,9 @@
 					Last name:<br>
 					<input type="text" name="lastname" value="">
 					<br><br>
-					<textarea>
-					</textarea>
+					<textarea name="comments" cols="20" rows="4">Enter your comments...</textarea>
 					<br>
 					<br>
-					Comment<br>
 					<input type="submit" value="Submit">
 				</fieldset>
 			</form>
