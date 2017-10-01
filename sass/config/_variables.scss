@@ -1,18 +1,14 @@
 // Font Families
 $georgia:      'Georgia', Cambria, Times, serif;
-$opensans:     'Open Sans', Tahoma, sans-serif;
-$opensanscd:   'Open Sans Condensed', sans-serif;
-$ptserif:      'PT Serif', serif;
 $ptsans:       'PT Sans', sans-serif;
+$ptserif:      'PT Serif', serif;
 $verdana:      'Verdana', Geneva, Arial, sans-serif;
-$montserrat:   'Montserrat', sans-serif;
-$merriweather: 'Merriweather', serif;
 
 // Colour Palette
 $dark-grey:    #222;
 $grey:         #444;
 $medium-grey:  #666;
-$light-grey:  #888;
+$light-grey:   #888;
 $light-bg:     white;
 $dark-bg:      $medium-grey;
 
@@ -33,3 +29,12 @@ $header-font-weight: bold;
 $hambgcolor: #CF649A;
 $hambasewidth: 22px;
 $hamsizemultiplier: 1.5;
+
+// Viewport Sizes
+$mobile:  480px;
+$tablet:  768px;
+$desktop: 1024px;
+
+// Header
+$header-width:  100%;
+$header-height: 64.5px;

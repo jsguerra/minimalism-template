@@ -8,13 +8,22 @@ h6 {
 	font-family: $header-font-family;
 }
 
+a {
+	color: $hambgcolor;
+	text-decoration: none;
+
+	&:hover {
+		text-decoration: underline;
+	}
+}
+
 p {
 	margin-bottom: 2.5rem;
 }
 
 blockquote {
-	font-family: $ptsans;
-	font-size: 1.2rem;
+	font-family: $ptserif;
+	font-size: 1.2em;
 }
 
 .lead {

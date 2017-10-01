@@ -651,7 +651,9 @@ p + .typl8-drop-cap {
  * Extend this object into your markup.
  *
  */
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: border-box; }
 
 html {
@@ -674,12 +676,18 @@ h5,
 h6 {
   font-family: "PT Sans", sans-serif; }
 
+a {
+  color: #CF649A;
+  text-decoration: none; }
+  a:hover {
+    text-decoration: underline; }
+
 p {
   margin-bottom: 2.5rem; }
 
 blockquote {
-  font-family: "PT Sans", sans-serif;
-  font-size: 1.2rem; }
+  font-family: "PT Serif", serif;
+  font-size: 1.2em; }
 
 .lead {
   line-height: 1.65;
@@ -690,6 +698,12 @@ img {
   height: auto;
   margin-bottom: 2.5rem; }
 
+.featured {
+  width: calc(100% + 8rem);
+  max-width: none;
+  margin-left: -4rem;
+  margin-right: -4rem; }
+
 header {
   background-color: white;
   position: fixed;
@@ -698,24 +712,14 @@ header {
   width: 100%;
   box-shadow: 0 2px 2px -2px rgba(0, 0, 0, 0.15); }
   header .header-inner {
+    position: relative;
     width: 100%;
+    min-height: 64.5px;
     max-width: 1000px;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
     margin: 0 auto;
-    padding: 0 10px; }
-    header .header-inner .logo {
-      align-self: center; }
-      header .header-inner .logo .typl8-epsilon {
-        margin-bottom: 0; }
-
-nav ul {
-  display: flex;
-  flex-flow: row wrap; }
-  nav ul li {
-    list-style-type: none;
-    margin-right: 10px; }
+    padding: 20px; }
+    header .header-inner .logo .typl8-epsilon {
+      margin-bottom: 0; }
 
 main {
   margin: 100px 0; }
@@ -727,8 +731,11 @@ main {
   padding: 20px; }
 
 footer {
-  border-top: 1px solid white;
-  text-align: center; }
+  border-top: 1px solid #eeeeee;
+  text-align: center;
+  padding: 0.5rem 0; }
+  footer p {
+    margin-bottom: 0.5rem; }
 
 .alignright {
   float: right;
@@ -782,5 +789,57 @@ footer {
   .hamburger.opened span:nth-child(3) {
     transform: rotate(-135deg);
     margin-top: 12px; }
+
+/* The Overlay (background) */
+.overlay {
+  height: 0;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 65px;
+  background-color: #cf649a;
+  background-color: rgba(207, 100, 154, 0.9);
+  color: white;
+  overflow: hidden;
+  transition: 0.5s; }
+  .overlay .overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px; }
+  .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: white;
+    display: block;
+    transition: 0.3s; }
+  .overlay:hover, .overlay:focus {
+    color: #f1f1f1; }
+  .overlay .btn-close {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px; }
+
+.open {
+  height: 100%; }
+
+@media screen and (max-height: 450px) {
+  .overlay a {
+    font-size: 20px; }
+
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px; } }
+nav ul {
+  font-family: "PT Serif", serif;
+  font-size: 32px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0; }
 
 /*# sourceMappingURL=style.css.map */

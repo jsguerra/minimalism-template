@@ -3,37 +3,22 @@ header {
 	position: fixed;
 	top: 0;
 	left: 0;
-	width: 100%;
+	width: $header-width;
 	box-shadow: 0 2px 2px -2px rgba(0,0,0,.15);
 
 	.header-inner {
-		width: 100%;
+		position: relative;
+		width: $header-width;
+		min-height: $header-height;
 		max-width: 1000px;
-		display: flex;
-		flex-flow: row wrap;
-		justify-content: space-between;
 		margin: 0 auto;
-		padding: 0 10px;
+		padding: 20px;
 
 		.logo {
-			align-self: center;
 
 			.typl8-epsilon {
 				margin-bottom: 0;
 			}
-		}
-	}
-}
-
-nav {
-
-	ul {
-		display: flex;
-		flex-flow: row wrap;
-
-		li {
-			list-style-type: none;
-			margin-right: 10px;
 		}
 	}
 }
@@ -50,8 +35,13 @@ main {
 }
 
 footer {
-	border-top: 1px solid lighten($light-grey, 55%);
+	border-top: 1px solid lighten($light-grey, 40%);
 	text-align: center;
+	padding: 0.5rem 0;
+
+	p {
+		margin-bottom: 0.5rem;
+	}
 }
 
 // Alignments
