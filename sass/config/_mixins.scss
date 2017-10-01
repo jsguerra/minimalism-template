@@ -1,3 +1,10 @@
+// Media Queries
+@mixin until($device-width){
+	@media screen and (max-width: $device-width){
+		@content;
+	}
+}
+
 // Simple Grid
 @mixin row() {
 	font-size: 0;
