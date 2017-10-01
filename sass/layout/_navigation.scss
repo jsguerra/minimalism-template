@@ -67,6 +67,7 @@
 	background-color: rgba(207,100,154,0.9);
 	color: white;
 	overflow: hidden;
+	-webkit-transition: 0.5s;
 	transition: 0.5s;
 
 	.overlay-content {
@@ -83,6 +84,7 @@
 		font-size: 36px;
 		color: white;
 		display: block;
+		-webkit-transition: 0.3s;
 		transition: 0.3s;
 	}
 
