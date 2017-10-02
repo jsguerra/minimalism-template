@@ -12,6 +12,7 @@
 	margin-left: -($hambasewidth * $hamsizemultiplier) / 2;
 	top: 55%;
 	margin-top: -(22.5px * $hamsizemultiplier) / 2;
+	pointer-events: all;
 
 	span {
 		display: block;

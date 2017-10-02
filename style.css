@@ -715,6 +715,11 @@ img {
       margin-left: 0;
       margin-right: 0; } }
 
+.is-noscroll {
+  pointer-events: none;
+  height: 100%;
+  overflow: hidden; }
+
 header {
   background-color: white;
   position: fixed;
@@ -775,7 +780,8 @@ footer {
   right: 3%;
   margin-left: -16.5px;
   top: 55%;
-  margin-top: -16.875px; }
+  margin-top: -16.875px;
+  pointer-events: all; }
   .hamburger span {
     display: block;
     position: absolute;
