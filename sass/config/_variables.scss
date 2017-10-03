@@ -11,6 +11,8 @@ $medium-grey:  #666;
 $light-grey:   #888;
 $light-bg:     white;
 $dark-bg:      $medium-grey;
+$pink: #CF649A;
+$dark-pink: #d03181;
 
 // Base Font
 $base-font-family: $ptserif;
@@ -26,7 +28,7 @@ $header-font-family: $ptsans;
 $header-font-weight: bold;
 
 // Hamburger
-$hambgcolor: #CF649A;
+$hambgcolor: $pink;
 $hambasewidth: 22px;
 $hamsizemultiplier: 1.5;
 

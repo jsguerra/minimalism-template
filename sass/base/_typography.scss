@@ -11,8 +11,12 @@ h6 {
 a {
 	color: $hambgcolor;
 	text-decoration: none;
+	-webkit-transition: color .3s linear;
+	-moz-transition: color .3s linear;
+	transition: color .3s linear;
 
 	&:hover {
+		color: $dark-pink;
 		text-decoration: underline;
 	}
 }
