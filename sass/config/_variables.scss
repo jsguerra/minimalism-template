@@ -1,7 +1,5 @@
 // Font Families
 $georgia:      'Georgia', Cambria, Times, serif;
-$ptsans:       'PT Sans', sans-serif;
-$ptserif:      'PT Serif', serif;
 $verdana:      'Verdana', Geneva, Arial, sans-serif;
 
 // Colour Palette
@@ -11,8 +9,8 @@ $medium-grey:  #666;
 $light-grey:   #888;
 $light-bg:     white;
 $dark-bg:      $medium-grey;
-$pink: #CF649A;
-$dark-pink: #d03181;
+$pink:         #CF649A;
+$dark-pink:    #d03181;
 
 // Base Font
 $base-font-family: $georgia;
@@ -25,7 +23,7 @@ $fixed-line-height: $typl8-line-height;
 
 // Headings
 $header-font-family: $verdana;
-$header-font-weight: bold;
+$header-font-weight: normal;
 
 // Hamburger
 $hambgcolor: $pink;
