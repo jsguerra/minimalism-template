@@ -1,40 +1,47 @@
 // Font Families
 $georgia:      'Georgia', Cambria, Times, serif;
 $verdana:      'Verdana', Geneva, Arial, sans-serif;
+$monospace:    'Courier New', Courier, monospace;
 
 // Colour Palette
-$dark-grey:    #222;
-$grey:         #444;
-$medium-grey:  #666;
-$light-grey:   #888;
-$light-bg:     white;
-$dark-bg:      $medium-grey;
-$pink:         #CF649A;
-$dark-pink:    #d03181;
+$palette: (
+	grey: (
+		base:  #444,
+		light: #666,
+		x-light: #f1f1f1,
+		dark:  #222,
+	),
 
-// Base Font
-$base-font-family: $georgia;
-$base-font-weight: normal;
+	pink: (
+		base:  #CF649A,
+		dark:  #d03181,
+	)
+);
 
-// Fixed Font
-$fixed-font-family: monospace;
-$fixed-font-size:   85%;
-$fixed-line-height: $typl8-line-height;
+// Base Map
+$font: (
+	family:     $georgia,
+	size:       131.25%,
+	weight:     400,
+);
 
-// Headings
-$header-font-family: $georgia;
-$header-font-weight: 700;
+$font-headings: (
+	family:     $georgia,
+	weight:     700,
+);
+
+$font-fixed: (
+	family:      $monospace,
+	size:        85%,
+	line-height: $typl8-line-height,
+);
 
 // Hamburger
-$hambgcolor: $pink;
-$hambasewidth: 22px;
+$hambgcolor:        setcolor(pink);
+$hambasewidth:      22px;
 $hamsizemultiplier: 1.5;
 
-// Viewport Sizes
-$mobile:  480px;
-$tablet:  768px;
-$desktop: 1024px;
-
-// Header
-$header-width:  100%;
-$header-height: 64.5px;
+// Breakpoints
+$mobile:            480px;
+$tablet:            768px;
+$desktop:           1024px;

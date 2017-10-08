@@ -5,7 +5,7 @@
 }
 
 html {
-	font-size: 131.25%;
+	font-size: map-get($font, size);
 }
 
 body, input, textarea, select, button {
@@ -15,6 +15,6 @@ body, input, textarea, select, button {
 }
 
 body {
-	font-family: $base-font-family;
-	background-color: $light-bg;
+	font-family: map-get($font, family);
+	background-color: white;
 }

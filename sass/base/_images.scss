@@ -2,6 +2,14 @@ img {
 	max-width: 100%;
 	height: auto;
 	margin-bottom: 2.5rem;
+
+	&.alignleft {
+		margin-left: -4rem;
+	}
+
+	&.alignright {
+		margin-right: -4rem;
+	}
 }
 
 .featured {

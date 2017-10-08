@@ -23,3 +23,8 @@
 		vertical-align: $align;
 	}
 }
+
+// Function to shorten the use of map-get()
+@function setcolor($color, $tone: base){
+	@return map-get(map-get($palette, $color), $tone);
+}

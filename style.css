@@ -693,11 +693,20 @@ p {
 abbr {
   color: #CF649A; }
 
+pre {
+  background-color: #f1f1f1; }
+
 blockquote {
   font-family: "Georgia", Cambria, Times, serif;
-  color: #666;
-  padding-left: 20px;
+  font-size: 1.1rem;
+  padding: 0.5rem 1rem;
+  margin-bottom: 1rem;
   border-left: 4px solid #CF649A; }
+  blockquote p {
+    margin-bottom: 0; }
+  blockquote footer:before {
+    content: "\2014";
+    color: #CF649A; }
 
 .lead {
   line-height: 1.65;
@@ -707,6 +716,10 @@ img {
   max-width: 100%;
   height: auto;
   margin-bottom: 2.5rem; }
+  img.alignleft {
+    margin-left: -4rem; }
+  img.alignright {
+    margin-right: -4rem; }
 
 .featured {
   width: calc(100% + 8rem);
@@ -737,7 +750,7 @@ header {
   header .header-inner {
     position: relative;
     width: 100%;
-    min-height: 64.5px;
+    min-height: 62.5px;
     max-width: 1000px;
     margin: 0 auto;
     padding: 20px; }
@@ -753,11 +766,11 @@ main {
   margin: 0 auto;
   padding: 20px; }
 
-footer {
-  border-top: 1px solid #eeeeee;
+.site-footer {
+  border-top: 1px solid #f1f1f1;
   text-align: center;
   padding: 0.5rem 0; }
-  footer p {
+  .site-footer p {
     margin-bottom: 0.5rem; }
 
 .alignright {
@@ -827,7 +840,8 @@ footer {
   color: white;
   overflow: hidden;
   -webkit-transition: 0.5s;
-  transition: 0.5s; }
+  transition: 0.5s;
+  pointer-events: all; }
   .overlay .overlay-content {
     position: relative;
     top: 25%;
@@ -842,8 +856,6 @@ footer {
     display: block;
     -webkit-transition: 0.3s;
     transition: 0.3s; }
-  .overlay:hover, .overlay:focus {
-    color: #f1f1f1; }
   .overlay .btn-close {
     position: absolute;
     top: 20px;
