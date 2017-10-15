@@ -18,3 +18,20 @@ body {
 	font-family: map-get($font, family);
 	background-color: white;
 }
+
+// Alignments
+.alignright {
+	float: right;
+	margin: 0 0 1em 1em;
+}
+
+.alignleft {
+	float: left;
+	margin: 0 1em 1em 0;
+}
+
+.aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}

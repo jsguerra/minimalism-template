@@ -668,6 +668,19 @@ body {
   font-family: "Georgia", Cambria, Times, serif;
   background-color: white; }
 
+.alignright {
+  float: right;
+  margin: 0 0 1em 1em; }
+
+.alignleft {
+  float: left;
+  margin: 0 1em 1em 0; }
+
+.aligncenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
 h1,
 h2,
 h3,
@@ -693,8 +706,11 @@ p {
 abbr {
   color: #CF649A; }
 
-pre {
-  background-color: #f1f1f1; }
+dt {
+  font-family: "Verdana", Geneva, Arial, sans-serif;
+  color: #CF649A; }
+  dt:after {
+    content: ':'; }
 
 blockquote {
   font-family: "Georgia", Cambria, Times, serif;
@@ -760,11 +776,19 @@ header {
 main {
   margin: 100px 0; }
 
-.wrapper {
+.row {
+  width: 100%; }
+
+.container {
   width: 100%;
   max-width: 740px;
   margin: 0 auto;
   padding: 20px; }
+
+.flex {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between; }
 
 .site-footer {
   border-top: 1px solid #f1f1f1;
@@ -772,19 +796,6 @@ main {
   padding: 0.5rem 0; }
   .site-footer p {
     margin-bottom: 0.5rem; }
-
-.alignright {
-  float: right;
-  margin: 0 0 1em 1em; }
-
-.alignleft {
-  float: left;
-  margin: 0 1em 1em 0; }
-
-.aligncenter {
-  display: block;
-  margin-left: auto;
-  margin-right: auto; }
 
 * {
   -webkit-tap-highlight-color: transparent;
@@ -879,5 +890,9 @@ nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0; }
+
+.related {
+  background-color: #fafafa;
+  padding: 2rem 0 0 0; }
 
 /*# sourceMappingURL=style.css.map */

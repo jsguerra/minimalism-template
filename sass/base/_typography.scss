@@ -30,8 +30,21 @@ abbr {
 	color: setcolor(pink);
 }
 
-pre {
-	background-color: setcolor(grey, x-light);
+dl {
+
+}
+
+dt {
+	font-family: $verdana;
+	color: setcolor(pink);
+
+	&:after {
+		content: ':';
+	}
+}
+
+dd {
+
 }
 
 blockquote {
