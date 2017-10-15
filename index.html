@@ -41,9 +41,9 @@
 		</div>
 	</header>
 
-	<div class="wrapper">
-		<main>
-			<article>
+	<main class="">
+		<div class="container">
+			<article class="">
 				<h1>The Earth <br><i><small>The Starting Point</small></i></h1>
 
 				<img class="featured" src="img/reading-book.jpg" alt="reading a book" />
@@ -117,17 +117,7 @@
 				<li>More Worlds</li>
 			  </ol>
 
-			  <p>Here's some code: <code>e = mc<sup>2</sup></code></p>
-
-			  <pre>
-<code>
-  And
-  Some
-  Poetry
-</code>
-			  </pre>
-
-			  <dl class="typl8-dictionary-style">
+			  <dl>
 				<dt>Coldly</dt>
 				<dd>I now assessed her as merely a useful, but often infuriating adjunct to my personal life.</dd>
 				<dt>We</dt>
@@ -139,27 +129,58 @@
 
 			  <hr>
 
-			  <p class="quiet">
+			  <p>
 				<small>Text excerpt from <a href="http://ebooks.adelaide.edu.au/s/stapledon/olaf/star/"><i>Star Maker</i> by Olaf Stapledon</a></small>
 			  </p>
 			</article>
-			<form action="">
-				<fieldset>
-					<legend>Personal information:</legend>
-					First name:<br>
-					<input type="text" name="firstname" value="">
-					<br>
-					Last name:<br>
-					<input type="text" name="lastname" value="">
-					<br><br>
-					<textarea name="comments" cols="20" rows="4">Enter your comments...</textarea>
-					<br>
-					<br>
-					<input type="submit" value="Submit">
-				</fieldset>
-			</form>
-		</main>
-	</div>
+		</div>
+
+		<section class="row related">
+			<div class="container">
+				<h2 class="related-title">Related Reading</h2>
+				<div class="flex">
+					<div class="related-article">
+						<h3>Title</h3>
+						<img src="" />
+						<p>Excerpt goes here</p>
+					</div>
+					<div class="related-article">
+						<h3>Title</h3>
+						<img src="" />
+						<p>Excerpt goes here</p>
+					</div>
+					<div class="related-article">
+						<h3>Title</h3>
+						<img src="" />
+						<p>Excerpt goes here</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="row">
+			<div class="container">
+				<h2>Comments</h2>
+				<form action="">
+					<fieldset>
+						<legend>Personal information:</legend>
+						First name:<br>
+						<input type="text" name="firstname" value="">
+						<br>
+						Last name:<br>
+						<input type="text" name="lastname" value="">
+						<br><br>
+						<textarea name="comments" cols="20" rows="4">Enter your comments...</textarea>
+						<br>
+						<br>
+						<input type="submit" value="Submit">
+					</fieldset>
+				</form>
+			</div>
+		</section>
+
+
+	</main>
 
 	<footer class="site-footer">
 		<address>
